@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "symbol": "XAUUSD",
+    "generated_at": "2026-08-12T07:45:00+00:00",
+    "source": "xauusd-mcp",
+    "version": "0.2",
+    "description": "Expanded mental map with H1 confluence layer, more historical anchors from M15/H1, and refined active levels near current price. Previous-candle open/close references only."
+  },
+  "levels": [
+    {
+      "id": "h1-20260805T17-close",
+      "price": 4244.13,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-05T17:00:00+00:00",
+      "status": "touched",
+      "strength": "high",
+      "notes": "Major expansion day close. Strong historical magnet."
+    },
+    {
+      "id": "h1-20260807T15-close",
+      "price": 4361.44,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-07T15:00:00+00:00",
+      "status": "touched",
+      "strength": "high",
+      "notes": "Explosive move close. Key reference."
+    },
+    {
+      "id": "h1-20260810T21-close",
+      "price": 4378.50,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-10T21:00:00+00:00",
+      "status": "touched",
+      "strength": "high",
+      "notes": "Strong evening close."
+    },
+    {
+      "id": "h1-20260810T22-close",
+      "price": 4388.23,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-10T22:00:00+00:00",
+      "status": "touched",
+      "strength": "high",
+      "notes": "Continuation close into higher levels."
+    },
+    {
+      "id": "h1-20260811T04-close",
+      "price": 4429.54,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-11T04:00:00+00:00",
+      "status": "virgin",
+      "strength": "high",
+      "confluence": ["M15"],
+      "notes": "Session high close. Still largely untested from below. Strongest nearby resistance reference."
+    },
+    {
+      "id": "h1-20260811T08-close",
+      "price": 4375.33,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-11T08:00:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Sharp rejection close."
+    },
+    {
+      "id": "h1-20260812T05-close",
+      "price": 4411.51,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-12T05:00:00+00:00",
+      "status": "touched",
+      "strength": "high",
+      "confluence": ["M1"],
+      "notes": "Strong morning impulse close."
+    },
+    {
+      "id": "h1-20260812T06-close",
+      "price": 4402.27,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-12T06:00:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Pullback close after the high."
+    },
+    {
+      "id": "m1-20260812T0607-close",
+      "price": 4414.26,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T06:07:00+00:00",
+      "status": "virgin",
+      "strength": "high",
+      "confluence": ["H1"],
+      "notes": "Highest M1 close of the morning. Still virgin."
+    },
+    {
+      "id": "m1-20260812T0550-close",
+      "price": 4412.41,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T05:50:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Local high close."
+    },
+    {
+      "id": "m1-20260812T0542-close",
+      "price": 4406.53,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T05:42:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Impulse continuation close."
+    },
+    {
+      "id": "m1-20260812T0710-close",
+      "price": 4398.36,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T07:10:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Recent lower reference."
+    },
+    {
+      "id": "m15-20260811T0445-close",
+      "price": 4429.54,
+      "type": "close",
+      "tf": "M15",
+      "origin": "2026-08-11T04:45:00+00:00",
+      "status": "virgin",
+      "strength": "high",
+      "confluence": ["H1"],
+      "notes": "Aligns exactly with H1 high close."
+    }
+  ],
+  "active_map": [
+    {
+      "id": "h1-20260811T04-close",
+      "price": 4429.54,
+      "type": "close",
+      "tf": "H1",
+      "status": "virgin",
+      "strength": "high",
+      "reason": "Strongest nearby untested high — multi-TF confluence with M15"
+    },
+    {
+      "id": "m1-20260812T0607-close",
+      "price": 4414.26,
+      "type": "close",
+      "tf": "M1",
+      "status": "virgin",
+      "strength": "high",
+      "reason": "Highest recent M1 close, still virgin, sits under the H1 high"
+    },
+    {
+      "id": "h1-20260812T05-close",
+      "price": 4411.51,
+      "type": "close",
+      "tf": "H1",
+      "status": "touched",
+      "strength": "high",
+      "reason": "Strong morning impulse close — immediate reference"
+    },
+    {
+      "id": "m1-20260812T0550-close",
+      "price": 4412.41,
+      "type": "close",
+      "tf": "M1",
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Local high of the push"
+    },
+    {
+      "id": "h1-20260812T06-close",
+      "price": 4402.27,
+      "type": "close",
+      "tf": "H1",
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Most recent completed H1 close"
+    },
+    {
+      "id": "m1-20260812T0710-close",
+      "price": 4398.36,
+      "type": "close",
+      "tf": "M1",
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Recent session low area reference"
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Upper resistance cluster",
+      "range": [4411.00, 4430.00],
+      "levels": ["h1-20260811T04-close", "m15-20260811T0445-close", "m1-20260812T0607-close", "h1-20260812T05-close", "m1-20260812T0550-close"],
+      "notes": "Primary decision zone. Contains the strongest virgin high and multiple recent impulse closes."
+    },
+    {
+      "name": "Current oscillation base",
+      "range": [4398.00, 4406.00],
+      "levels": ["h1-20260812T06-close", "m1-20260812T0542-close", "m1-20260812T0710-close"],
+      "notes": "Area of recent two-way trade. Previous closes acting as micro support/resistance."
+    },
+    {
+      "name": "Historical expansion anchors",
+      "range": [4240.00, 4380.00],
+      "levels": ["h1-20260805T17-close", "h1-20260807T15-close", "h1-20260810T21-close", "h1-20260810T22-close"],
+      "notes": "Deeper magnets from previous expansion days. Relevant on larger pullbacks."
+    }
+  ]
+}
