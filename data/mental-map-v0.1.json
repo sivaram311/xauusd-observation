@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "symbol": "XAUUSD",
+    "generated_at": "2026-08-12T07:40:00+00:00",
+    "source": "xauusd-mcp",
+    "version": "0.1",
+    "description": "Rolling map of previous-candle open/close reference levels. Focus on currently relevant virgin and recently interacted levels near price + key historical anchors from M15."
+  },
+  "levels": [
+    {
+      "id": "m15-20260807T1530-close",
+      "price": 4366.92,
+      "type": "close",
+      "tf": "M15",
+      "origin": "2026-08-07T15:30:00+00:00",
+      "status": "touched",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": [],
+      "strength": "high",
+      "notes": "Major expansion close. Strong historical reference."
+    },
+    {
+      "id": "m15-20260810T2130-close",
+      "price": 4379.70,
+      "type": "close",
+      "tf": "M15",
+      "origin": "2026-08-10T21:30:00+00:00",
+      "status": "touched",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": [],
+      "strength": "high",
+      "notes": "Significant evening push close."
+    },
+    {
+      "id": "m15-20260811T0445-close",
+      "price": 4429.54,
+      "type": "close",
+      "tf": "M15",
+      "origin": "2026-08-11T04:45:00+00:00",
+      "status": "virgin",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": [],
+      "strength": "high",
+      "notes": "Local high close still largely untested from below in recent sessions."
+    },
+    {
+      "id": "m15-20260811T0830-close",
+      "price": 4377.00,
+      "type": "close",
+      "tf": "M15",
+      "origin": "2026-08-11T08:30:00+00:00",
+      "status": "touched",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": [],
+      "strength": "medium",
+      "notes": "Sharp drop close."
+    },
+    {
+      "id": "m1-20260812T0542-close",
+      "price": 4406.53,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T05:42:00+00:00",
+      "status": "touched",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": ["M15"],
+      "strength": "medium",
+      "notes": "Recent impulse close."
+    },
+    {
+      "id": "m1-20260812T0550-close",
+      "price": 4412.41,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T05:50:00+00:00",
+      "status": "touched",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": [],
+      "strength": "medium",
+      "notes": "Local high of the morning push."
+    },
+    {
+      "id": "m1-20260812T0607-close",
+      "price": 4414.26,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T06:07:00+00:00",
+      "status": "virgin",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": [],
+      "strength": "high",
+      "notes": "Highest close of the recent session. Still largely virgin from below."
+    },
+    {
+      "id": "m1-20260812T0614-close",
+      "price": 4410.65,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T06:14:00+00:00",
+      "status": "touched",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": [],
+      "strength": "medium",
+      "notes": "Pullback close after high."
+    },
+    {
+      "id": "m1-20260812T0644-close",
+      "price": 4401.44,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T06:44:00+00:00",
+      "status": "touched",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": [],
+      "strength": "medium",
+      "notes": "Recent lower close."
+    },
+    {
+      "id": "m1-20260812T0710-close",
+      "price": 4398.36,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T07:10:00+00:00",
+      "status": "touched",
+      "first_touched": null,
+      "age_bars": null,
+      "confluence": [],
+      "strength": "medium",
+      "notes": "Recent session low area close."
+    },
+    {
+      "id": "m1-20260812T0736-close",
+      "price": 4399.00,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T07:36:00+00:00",
+      "status": "virgin",
+      "first_touched": null,
+      "age_bars": 0,
+      "confluence": [],
+      "strength": "low",
+      "notes": "Most recent completed close at time of map generation."
+    }
+  ],
+  "active_map": [
+    {
+      "id": "m1-20260812T0607-close",
+      "price": 4414.26,
+      "type": "close",
+      "tf": "M1",
+      "status": "virgin",
+      "strength": "high",
+      "reason": "Highest recent close, still virgin from below"
+    },
+    {
+      "id": "m15-20260811T0445-close",
+      "price": 4429.54,
+      "type": "close",
+      "tf": "M15",
+      "status": "virgin",
+      "strength": "high",
+      "reason": "Stronger higher-timeframe untested high close"
+    },
+    {
+      "id": "m1-20260812T0550-close",
+      "price": 4412.41,
+      "type": "close",
+      "tf": "M1",
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Recent local high"
+    },
+    {
+      "id": "m1-20260812T0542-close",
+      "price": 4406.53,
+      "type": "close",
+      "tf": "M1",
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Impulse close still relevant"
+    },
+    {
+      "id": "m1-20260812T0710-close",
+      "price": 4398.36,
+      "type": "close",
+      "tf": "M1",
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Recent session low reference"
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Morning high cluster",
+      "range": [4412.00, 4415.00],
+      "levels": ["m1-20260812T0550-close", "m1-20260812T0607-close"],
+      "notes": "Tight cluster of recent highs. Strong resistance zone if approached from below."
+    },
+    {
+      "name": "Recent pullback base",
+      "range": [4398.00, 4402.00],
+      "levels": ["m1-20260812T0644-close", "m1-20260812T0710-close"],
+      "notes": "Area where price has been oscillating. Previous closes acting as micro support/resistance."
+    }
+  ]
+}
