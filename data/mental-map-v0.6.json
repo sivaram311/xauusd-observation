@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "symbol": "XAUUSD",
+    "generated_at": "2026-08-12T08:00:00+00:00",
+    "source": "xauusd-mcp",
+    "version": "0.6",
+    "description": "Continued live monitoring. Both primary virgin levels remain completely untouched. Price still working the current base."
+  },
+  "levels": [
+    {
+      "id": "h1-20260811T04-close",
+      "price": 4429.54,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-11T04:00:00+00:00",
+      "status": "virgin",
+      "age_approx_hours": 28,
+      "strength": "high",
+      "confluence": ["M15"],
+      "notes": "Still completely clean. Primary higher-timeframe magnet."
+    },
+    {
+      "id": "m1-20260812T0607-close",
+      "price": 4414.26,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T06:07:00+00:00",
+      "status": "virgin",
+      "age_approx_bars": 110,
+      "strength": "high",
+      "confluence": ["H1"],
+      "notes": "Highest morning M1 close. Remains virgin."
+    },
+    {
+      "id": "h1-20260812T05-close",
+      "price": 4411.51,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-12T05:00:00+00:00",
+      "status": "touched",
+      "strength": "high",
+      "notes": "Morning impulse close."
+    },
+    {
+      "id": "h1-20260812T06-close",
+      "price": 4402.27,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-12T06:00:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Current H1 structural pivot."
+    },
+    {
+      "id": "m1-20260812T0715-close",
+      "price": 4395.95,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T07:15:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Session low reference."
+    },
+    {
+      "id": "m1-20260812T0745-close",
+      "price": 4399.68,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T07:45:00+00:00",
+      "status": "touched",
+      "strength": "low",
+      "notes": "Most recent completed close."
+    }
+  ],
+  "active_map": [
+    {
+      "id": "h1-20260811T04-close",
+      "price": 4429.54,
+      "status": "virgin",
+      "strength": "high",
+      "age_approx_hours": 28,
+      "reason": "Primary virgin high — still completely untouched"
+    },
+    {
+      "id": "m1-20260812T0607-close",
+      "price": 4414.26,
+      "status": "virgin",
+      "strength": "high",
+      "age_approx_bars": 110,
+      "reason": "Highest recent M1 close still virgin"
+    },
+    {
+      "id": "h1-20260812T05-close",
+      "price": 4411.51,
+      "status": "touched",
+      "strength": "high",
+      "reason": "Strong morning impulse close"
+    },
+    {
+      "id": "h1-20260812T06-close",
+      "price": 4402.27,
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Current H1 pivot"
+    },
+    {
+      "id": "m1-20260812T0715-close",
+      "price": 4395.95,
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Session low reference"
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Upper resistance cluster",
+      "range": [4411.00, 4430.00],
+      "levels": ["h1-20260811T04-close", "m1-20260812T0607-close", "h1-20260812T05-close"],
+      "notes": "Both major virgin levels remain intact."
+    },
+    {
+      "name": "Current base",
+      "range": [4395.50, 4403.00],
+      "levels": ["h1-20260812T06-close", "m1-20260812T0715-close", "m1-20260812T0745-close"],
+      "notes": "Price continues to oscillate here with previous closes acting as micro references."
+    }
+  ],
+  "observations": [
+    "Virgin levels 4429.54 and 4414.26 remain completely clean after further monitoring.",
+    "Price is still contained inside the 4395.50–4403 base.",
+    "Previous-candle close references continue to produce tight reactions inside the base."
+  ]
+}
