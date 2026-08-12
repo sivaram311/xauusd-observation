@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "symbol": "XAUUSD",
+    "generated_at": "2026-08-12T07:55:00+00:00",
+    "source": "xauusd-mcp",
+    "version": "0.5",
+    "description": "Continued monitoring. Both primary virgin levels remain untouched. Price still contained in the current base with previous-close micro references active."
+  },
+  "levels": [
+    {
+      "id": "h1-20260811T04-close",
+      "price": 4429.54,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-11T04:00:00+00:00",
+      "status": "virgin",
+      "age_approx_hours": 28,
+      "strength": "high",
+      "confluence": ["M15"],
+      "notes": "Still completely clean. Primary higher-timeframe magnet."
+    },
+    {
+      "id": "m1-20260812T0607-close",
+      "price": 4414.26,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T06:07:00+00:00",
+      "status": "virgin",
+      "age_approx_bars": 105,
+      "strength": "high",
+      "confluence": ["H1"],
+      "notes": "Highest morning M1 close. Remains virgin."
+    },
+    {
+      "id": "h1-20260812T05-close",
+      "price": 4411.51,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-12T05:00:00+00:00",
+      "status": "touched",
+      "strength": "high",
+      "notes": "Morning impulse close."
+    },
+    {
+      "id": "h1-20260812T06-close",
+      "price": 4402.27,
+      "type": "close",
+      "tf": "H1",
+      "origin": "2026-08-12T06:00:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Latest completed H1 close — current structural pivot."
+    },
+    {
+      "id": "m1-20260812T0715-close",
+      "price": 4395.95,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T07:15:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Session low reference."
+    },
+    {
+      "id": "m1-20260812T0740-close",
+      "price": 4396.17,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T07:40:00+00:00",
+      "status": "touched",
+      "strength": "medium",
+      "notes": "Lower base close."
+    },
+    {
+      "id": "m1-20260812T0744-close",
+      "price": 4399.97,
+      "type": "close",
+      "tf": "M1",
+      "origin": "2026-08-12T07:44:00+00:00",
+      "status": "touched",
+      "strength": "low",
+      "notes": "Most recent completed close."
+    }
+  ],
+  "active_map": [
+    {
+      "id": "h1-20260811T04-close",
+      "price": 4429.54,
+      "status": "virgin",
+      "strength": "high",
+      "age_approx_hours": 28,
+      "reason": "Primary virgin high — still completely untouched"
+    },
+    {
+      "id": "m1-20260812T0607-close",
+      "price": 4414.26,
+      "status": "virgin",
+      "strength": "high",
+      "age_approx_bars": 105,
+      "reason": "Highest recent M1 close still virgin"
+    },
+    {
+      "id": "h1-20260812T05-close",
+      "price": 4411.51,
+      "status": "touched",
+      "strength": "high",
+      "reason": "Strong morning impulse close"
+    },
+    {
+      "id": "h1-20260812T06-close",
+      "price": 4402.27,
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Current H1 pivot"
+    },
+    {
+      "id": "m1-20260812T0715-close",
+      "price": 4395.95,
+      "status": "touched",
+      "strength": "medium",
+      "reason": "Session low reference"
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Upper resistance cluster",
+      "range": [4411.00, 4430.00],
+      "levels": ["h1-20260811T04-close", "m1-20260812T0607-close", "h1-20260812T05-close"],
+      "notes": "Both major virgin levels remain intact. This is still the key decision zone above."
+    },
+    {
+      "name": "Current base",
+      "range": [4395.50, 4403.00],
+      "levels": ["h1-20260812T06-close", "m1-20260812T0715-close", "m1-20260812T0740-close", "m1-20260812T0744-close"],
+      "notes": "Price continues to respect previous closes inside this zone with tight reactions."
+    }
+  ],
+  "observations": [
+    "Virgin levels 4429.54 and 4414.26 remain completely clean.",
+    "Price is still working the 4395.50–4403 base.",
+    "Previous-candle close references continue to act as precise micro decision points inside the base — supporting the core thesis."
+  ]
+}
